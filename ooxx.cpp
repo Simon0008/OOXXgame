@@ -25,11 +25,12 @@ for(int i = 0; i < 9 ; i++)
         printf("+-----+-----+-----+\n");
 
         player = i % 2 + 1;
+        printf("Player 1 = X\n");
+        printf("Player 2 = O\n");
 
         do
         {
-            printf("player%d,please play:",
-                   player);
+            printf("Player %d , please play: ",player);
             scanf("%d",&choice);
 
             X = --choice / 3;
