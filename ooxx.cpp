@@ -39,14 +39,6 @@ for(int i = 0; i < 9 ; i++)
 
         JG[X][Y] = (player == 1) ? 'X' :'O';
 
-            for(line = 0; line < 3; line++)
-            {
-                if(JG[0][line] == JG[1][line]
-                        && JG[0][line] == JG[2][line] ||
-                        JG[line][0] == JG[line][1]
-                        && JG[line][0]== JG[line][2])
-                    winner = player;
-            }
         if(JG[0][0] == JG[0][1] && JG[0][1] == JG[0][2])
         {
             if(JG[0][0] == 'X')
