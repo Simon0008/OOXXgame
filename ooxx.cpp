@@ -3,7 +3,6 @@
 int main(void)
 {
     int player = 0;
-    int winner = 0;
     int choice = 0;
     int X = 0;
     int Y = 0;
@@ -14,7 +13,7 @@ int main(void)
         {'7','8','9'}
 
     };
-for(int i = 0; i < 9 && winner == 0; i++)
+for(int i = 0; i < 9 ; i++)
     {
         printf("\n\n");
         printf("+-----+-----+-----+\n");
