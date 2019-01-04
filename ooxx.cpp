@@ -49,7 +49,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][0] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -62,7 +62,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[1][0] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -75,7 +75,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[2][0] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -88,7 +88,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][0] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -101,7 +101,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][1] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -114,7 +114,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][2] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -127,7 +127,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][0] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
@@ -140,7 +140,7 @@ for(int i = 0; i < 9 ; i++)
             }
             if(JG[0][2] == 'O')
             {
-                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                printf("Congratulations! Player 2 won this game!\n");
                 break;
             }
         }
