@@ -7,7 +7,6 @@ int main(void)
     int choice = 0;
     int X = 0;
     int Y = 0;
-    int line = 0;
     char JG[3][3] =
     {
         {'1','2','3'},
