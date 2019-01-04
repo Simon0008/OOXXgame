@@ -49,7 +49,112 @@ for(int i = 0; i < 9 && winner == 0; i++)
                         && JG[line][0]== JG[line][2])
                     winner = player;
             }
+        if(JG[0][0] == JG[0][1] && JG[0][1] == JG[0][2])
+        {
+            if(JG[0][0] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][0] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[1][0] == JG[1][1] && JG[1][1] == JG[1][2])
+        {
+            if(JG[1][0] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[1][0] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[2][0] == JG[2][1] && JG[2][1] == JG[2][2])
+        {
+            if(JG[2][0] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[2][0] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[0][0] == JG[1][0] && JG[1][0] == JG[2][0])
+        {
+            if(JG[0][0] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][0] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[0][1] == JG[1][1] && JG[1][1] == JG[2][1])
+        {
+            if(JG[0][1] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][1] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[0][2] == JG[1][2] && JG[1][2] == JG[2][2])
+        {
+            if(JG[0][2] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][2] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[0][0] == JG[1][1] && JG[1][1] == JG[2][2])
+        {
+            if(JG[0][0] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][0] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
+        if(JG[0][2] == JG[1][1] && JG[1][1] == JG[2][0])
+        {
+            if(JG[0][2] == 'X')
+            {
+                printf("Congratulations! Player 1 won this game!\n");
+                break;
+            }
+            if(JG[0][2] == 'O')
+            {
+                printf("Player 2 won this game! Don't JGe discouraged! Play again!\n");
+                break;
+            }
+        }
     }
+
     printf("\n\n");
     printf("+-----+-----+-----+\n");
     printf("| %2c  | %2c  | %2c  |\n",JG[0][0],JG[0][1],JG[0][2]);
@@ -59,11 +164,17 @@ for(int i = 0; i < 9 && winner == 0; i++)
     printf("| %2c  | %2c  | %2c  |\n",JG[2][0],JG[2][1],JG[2][2]);
     printf("+-----+-----+-----+\n");
 
-    if(winner == 0)
+    if((JG[0][0] != '1')
+            && (JG[0][1] != '2')
+            && (JG[0][2] != '3')
+            && (JG[1][0] != '4')
+            && (JG[1][1] != '5')
+            && (JG[1][2] != '6')
+            && (JG[2][0] != '7')
+            && (JG[2][1] != '8')
+            && (JG[2][2] != '9'))
     {
-        printf("Deuce\n");
+        printf("Draw! Play again!\n");
     }
-    else
-        printf("congratulation player %d winner\n",winner);
     return 0;
 }
