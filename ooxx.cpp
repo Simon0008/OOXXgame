@@ -176,5 +176,6 @@ for(int i = 0; i < 9 && winner == 0; i++)
     {
         printf("Draw! Play again!\n");
     }
+    getchar();
     return 0;
 }
